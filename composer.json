@@ -10,13 +10,20 @@
             "homepage": "http://reinink.ca"
         }
     ],
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/cmsmaxinc/glide-symfony.git"
+        }
+    ],
     "require": {
-        "league/glide-symfony": "^1.0"
+        "league/glide-symfony": "dev-master"
     },
     "require-dev": {
         "mockery/mockery": "^0.9",
         "phpunit/phpunit": "^4.0"
     },
+    "minimum-stability": "dev",
     "autoload": {
         "psr-4": {
             "League\\Glide\\": "src/"
